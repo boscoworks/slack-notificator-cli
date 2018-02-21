@@ -1,0 +1,2 @@
+# slack-notification-textfile
+テキストファイルを読み込んでSlackに投稿するスクリプト
