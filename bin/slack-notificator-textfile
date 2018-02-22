@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../src/SlackNotificator.class.php';
+
+SlackNotificator::getInstance()->setCLIOptions()->send();
