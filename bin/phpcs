@@ -1,0 +1,6 @@
+#! /bin/bash
+
+php vendor/bin/phpcs \
+    -p --colors --no-cache \
+    --standard=config/ruleset.xml \
+    src/

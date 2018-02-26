@@ -1,0 +1,6 @@
+#! /bin/bash
+
+php vendor/bin/phpcbf \
+    -n \
+    --standard=config/ruleset.xml \
+    src/

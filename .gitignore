@@ -1,0 +1,55 @@
+.composer
+
+# Created by http://www.gitignore.io
+
+# ### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Tags ###
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+!TAGS/
+tags
+!tags/
+.tags*
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# the composer package lock file and install directory
+/vendor
+
+# environment settings
+/config/.env
